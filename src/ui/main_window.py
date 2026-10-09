@@ -155,27 +155,6 @@ class MainWindow(QMainWindow):
         lbl_source.setFont(QFont("Segoe UI", 8))
         lbl_source.setStyleSheet("color: #64748B;")
         footer_box.addWidget(lbl_source)
-
-        btn_github = QPushButton("🌐 Baixar .EXE / GitHub")
-        btn_github.setToolTip("Abrir página de downloads e releases do Radar Nacional de Licitações no GitHub")
-        btn_github.setStyleSheet("""
-            QPushButton {
-                background-color: #1E293B;
-                color: #38BDF8;
-                border: 1px solid #334155;
-                border-radius: 4px;
-                padding: 6px;
-                font-size: 11px;
-                font-weight: bold;
-            }
-            QPushButton:hover {
-                background-color: #334155;
-                color: #FFFFFF;
-            }
-        """)
-        btn_github.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://github.com/AndrzzO/Radar_Nacional_Licitacoes/releases")))
-        footer_box.addWidget(btn_github)
-
         side_layout.addLayout(footer_box)
 
         root_layout.addWidget(sidebar)

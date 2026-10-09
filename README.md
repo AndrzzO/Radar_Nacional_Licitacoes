@@ -1,23 +1,16 @@
-# 🛰️ Radar Nacional de Licitações
+# Radar Nacional de Licitações
 
 **Aplicativo Desktop Windows para Coleta, Organização, Monitoramento, Classificação e Exportação de Licitações Públicas Brasileiras.**
 
-<div align="center">
+## Download
 
-[![Baixar Executável Windows](https://img.shields.io/badge/⬇️_BAIXAR_EXECUTÁVEL_(.EXE)-Windows_64--bit-1B365D?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AndrzzO/Radar_Nacional_Licitacoes/releases/latest)
-[![Última Versão](https://img.shields.io/github/v/release/AndrzzO/Radar_Nacional_Licitacoes?style=for-the-badge&color=0E703C)](https://github.com/AndrzzO/Radar_Nacional_Licitacoes/releases)
-[![Status dos Testes](https://img.shields.io/badge/Testes-21%2F21_Aprovados-0E703C?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/AndrzzO/Radar_Nacional_Licitacoes)
+**[⬇️ Baixar RadarNacionalLicitacoes.exe](https://github.com/AndrzzO/Radar_Nacional_Licitacoes/raw/main/RadarNacionalLicitacoes.exe)**
 
-<br/>
+1. Baixe o arquivo `RadarNacionalLicitacoes.exe` (está na raiz deste repositório).
+2. Dê dois cliques para abrir. Não precisa instalar Python nem nada.
+3. Se o Windows SmartScreen avisar "aplicativo não reconhecido", clique em **Mais informações → Executar assim mesmo** (o executável não é assinado digitalmente).
 
-### 📥 [👉 **CLIQUE AQUI PARA BAIXAR A VERSÃO EXECUTÁVEL (.EXE / .ZIP)** 👈](https://github.com/AndrzzO/Radar_Nacional_Licitacoes/releases/latest)
-
-> **Não precisa instalar Python, banco de dados ou dependências:**
-> 1. Baixe o pacote **`RadarNacionalLicitacoes_Windows.zip`** na página de [Releases](https://github.com/AndrzzO/Radar_Nacional_Licitacoes/releases/latest).
-> 2. Descompacte o arquivo ZIP em qualquer pasta do seu Windows.
-> 3. Dê dois cliques em **`RadarNacionalLicitacoes.exe`** para começar a usar imediatamente!
-
-</div>
+O banco de dados fica salvo em `%LOCALAPPDATA%\RadarNacionalLicitacoes\`, então você pode substituir o `.exe` por uma versão nova sem perder seus dados.
 
 ---
 
