@@ -1,0 +1,796 @@
+{
+  "version": "1.0",
+  "reviewed_on": "2026-10-08",
+  "title": "Do cadastro ao recebimento",
+  "subtitle": "Curso prático para fornecedores em licitações públicas",
+  "scope": "Trilha educacional autoral do Radar Nacional de Licitações, com base principal na Lei nº 14.133/2021. Não é curso oficial da Enap e não emite certificado oficial. Normas consultadas em 08/10/2026; o conteúdo não se atualiza automaticamente. Confira o edital, o regulamento do ente e o texto vigente antes de agir. Tributação e controvérsias específicas exigem análise contábil ou jurídica do caso.",
+  "sources": {
+    "lei": {
+      "title": "Lei nº 14.133/2021 - Licitações e Contratos Administrativos",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+    },
+    "lc123": {
+      "title": "Lei Complementar nº 123/2006 - ME e EPP, arts. 42 a 49",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+    },
+    "4320": {
+      "title": "Lei nº 4.320/1964 - Empenho, liquidação e pagamento",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+    },
+    "redesim": {
+      "title": "REDESIM - Orientação para abertura e licenciamento",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/ajuda/"
+    },
+    "mat": {
+      "title": "REDESIM - Registro, inscrição e Módulo de Administração Tributária",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim/ajuda/inscrever"
+    },
+    "mei": {
+      "title": "Portal do Empreendedor - Formalização do MEI",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes/como-e-feita-a-formalizacao-do-mei/o-que-e-a-formalizacao"
+    },
+    "sicaf": {
+      "title": "SICAF Digital - Cadastro oficial e gratuito",
+      "url": "https://www.gov.br/compras/pt-br/sicaf-digital"
+    },
+    "fornecedor": {
+      "title": "Compras.gov.br - Cartilha do fornecedor",
+      "url": "https://www.gov.br/compras/pt-br/fornecedor/micro-e-pequenas-empresas-1/fornecedor/cartilha-do-fornecedor"
+    },
+    "in73": {
+      "title": "IN SEGES/ME nº 73/2022 - Licitação eletrônica",
+      "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022"
+    },
+    "in77": {
+      "title": "IN SEGES/ME nº 77/2022 - Liquidação e pagamento federal",
+      "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-77-de-4-de-novembro-de-2022"
+    },
+    "pncp": {
+      "title": "PNCP - Editais",
+      "url": "https://pncp.gov.br/app/editais"
+    },
+    "compras": {
+      "title": "Portal de Compras do Governo Federal",
+      "url": "https://www.gov.br/compras/pt-br"
+    }
+  },
+  "modules": [
+    {
+      "id": "mapa",
+      "title": "Entenda o caminho e a legislação",
+      "goal": "Distinguir as modalidades e reconhecer o regime de cada oportunidade.",
+      "concepts": [
+        {
+          "title": "Quem compra e quem vende",
+          "text": "No fornecimento ao poder público, sua empresa apresenta uma proposta, disputa quando houver competição e, se contratada, entrega o objeto para receber. O pregão é utilizado para bens e serviços comuns; não serve para qualquer objeto. No leilão de alienação, o poder público vende um bem e o arrematante paga por ele. Não confunda a disputa de lances do pregão com um leilão de venda."
+        },
+        {
+          "title": "Qual regra seguir",
+          "text": "A Lei nº 14.133/2021 rege, em geral, a administração direta, autarquias e fundações. Estatais seguem, em regra, a Lei nº 13.303/2016; contratos antigos podem continuar sob o regime que os originou. Regulamentos federais não são automaticamente regras de todos os municípios. Leia o edital junto com a legislação aplicável: uma cláusula ilegal pode ser questionada. Este curso é uma trilha geral para fornecedores, não uma revisão jurídica de um edital específico."
+        }
+      ],
+      "steps": [
+        "Identifique órgão, objeto, modalidade, processo e regime legal no edital.",
+        "Confirme se pretende vender produtos/serviços ou comprar um bem público em leilão.",
+        "Localize o regulamento do órgão e a plataforma indicada para enviar propostas.",
+        "Mapeie as fases: edital, proposta, disputa quando cabível, julgamento, habilitação, recurso, homologação, contratação, execução e pagamento. A habilitação pode ser antecipada nas condições legais.",
+        "Crie uma pasta por oportunidade. Guarde edital, anexos, retificações, proposta, mensagens, atas e comprovantes."
+      ],
+      "example": "Uma prefeitura compra cadeiras padronizadas por pregão. A empresa fornece e recebe conforme o contrato. Se a prefeitura vende um veículo usado em leilão, o comprador oferece lances e paga pelo veículo. O dinheiro circula em sentidos diferentes.",
+      "checklist": [
+        "Sei se sou fornecedor ou arrematante.",
+        "Identifiquei a lei e o regulamento aplicáveis.",
+        "Tenho o edital integral e seus anexos."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 1º, 6º, 17, 28 a 33 e 190 a 191."
+        }
+      ],
+      "quiz": {
+        "question": "Para fornecer um serviço comum ao órgão, a modalidade usual prevista na lei é:",
+        "options": [
+          "Pregão, observadas as características do objeto.",
+          "Leilão de alienação.",
+          "Qualquer modalidade escolhida pelo fornecedor."
+        ],
+        "correct": 0,
+        "explanation": "A escolha cabe à Administração dentro da lei. O pregão é próprio de bens e serviços comuns; o leilão é voltado à alienação de bens."
+      }
+    },
+    {
+      "id": "empresa",
+      "title": "Abra e organize sua empresa",
+      "goal": "Separar constituição empresarial, licenciamento e preparação operacional.",
+      "concepts": [
+        {
+          "title": "Antes do CNPJ",
+          "text": "Defina o que será vendido, quem serão os sócios, endereço, atividades e capacidade de execução. Enquadramento como ME/EPP, natureza jurídica e regime tributário são escolhas diferentes. Planeje com apoio contábil; o CNAE e o objeto social devem refletir a atividade real. Abrir CNPJ não torna a empresa automaticamente habilitada em uma licitação."
+        },
+        {
+          "title": "MEI e outras formas",
+          "text": "O MEI tem formalização própria e gratuita no Portal do Empreendedor, quando a atividade e as demais condições permitirem. Verifique as regras atuais antes de optar por ele. Para outras empresas, siga a integração REDESIM de seu estado. A orientação atual inclui o Módulo de Administração Tributária (MAT) após o registro do ato constitutivo. Não use um roteiro antigo que encerre o processo no DBE."
+        }
+      ],
+      "steps": [
+        "Defina a atividade e consulte a viabilidade do nome/endereço quando exigida no integrador local.",
+        "Preencha os dados na REDESIM e acompanhe o protocolo; reúna identificação dos responsáveis e ato constitutivo adequado.",
+        "Providencie o registro no órgão competente, como Junta Comercial, cartório ou OAB, conforme a natureza da entidade.",
+        "Conclua o MAT e as etapas indicadas para inscrição no CNPJ e opção tributária, quando aplicáveis; confira os comprovantes emitidos.",
+        "Confira inscrições estadual/municipal, licenciamento e exigências sanitárias, ambientais ou profissionais. Dispensa de licença não dispensa cumprir requisitos materiais.",
+        "Organize conta bancária, emissão fiscal, contabilidade, contatos e representante autorizado. Verifique se consegue executar o objeto antes de ofertar."
+      ],
+      "example": "Uma pessoa quer vender manutenção de equipamentos. Antes de abrir a empresa, lista quais equipamentos atenderá, verifica atividade permitida e eventuais registros técnicos, estima tributos e pessoal. Só depois configura cadastro e emissão de notas para a atividade efetiva.",
+      "checklist": [
+        "CNPJ e registros conferidos.",
+        "Atividade e licenças compatíveis com a operação.",
+        "Emissão fiscal e responsabilidades definidas."
+      ],
+      "references": [
+        {
+          "source": "redesim",
+          "detail": "Orientações de viabilidade e licenciamento."
+        },
+        {
+          "source": "mat",
+          "detail": "Fluxo de registro e inscrição; orientação atualizada em 02/12/2025."
+        },
+        {
+          "source": "mei",
+          "detail": "Formalização gratuita pelo serviço oficial."
+        }
+      ],
+      "quiz": {
+        "question": "Ter um CNPJ ativo significa estar habilitado para qualquer edital?",
+        "options": [
+          "Sim, o CNPJ substitui todas as certidões.",
+          "Não; cada contratação exige a capacidade e a documentação pertinentes.",
+          "Sim, se a empresa tiver conta bancária."
+        ],
+        "correct": 1,
+        "explanation": "Constituição, regularidade, capacidade técnica e exigências do objeto são verificações diferentes."
+      }
+    },
+    {
+      "id": "cadastros",
+      "title": "Cadastre-se para participar",
+      "goal": "Preparar acesso, representação e cadastro no sistema de compras.",
+      "concepts": [
+        {
+          "title": "Três coisas distintas",
+          "text": "A conta gov.br identifica a pessoa que acessa o serviço; o SICAF reúne informações do fornecedor no ambiente federal; o credenciamento no Compras.gov.br permite operar funcionalidades de compras. Nenhum deles substitui automaticamente exigências de outra plataforma. O PNCP divulga contratações: a participação deve ocorrer no sistema indicado pelo edital."
+        },
+        {
+          "title": "Organize os níveis e a validade",
+          "text": "No SICAF, confira credenciamento, habilitação jurídica, regularidade fiscal federal e trabalhista, regularidade fiscal estadual/distrital e municipal, qualificação técnica e qualificação econômico-financeira. Complete o que for exigível e mantenha comprovações atualizadas. O serviço oficial é gratuito; contratações particulares de assessoria são opcionais."
+        }
+      ],
+      "steps": [
+        "Entre pelo portal oficial, confira o endereço e prepare a conta gov.br e os meios de autenticação exigidos pelo serviço.",
+        "Confira o responsável pelo CNPJ e os poderes do representante. Cadastre autorizações pelos meios aceitos; não compartilhe senha pessoal.",
+        "Acesse SICAF Digital, confira dados importados e complemente informações e documentos. Corrija divergências na base de origem quando necessário.",
+        "Faça o credenciamento no Compras.gov.br ou na plataforma do edital e teste o acesso antes do prazo.",
+        "Confirme contatos, mensagens e calendário de validade. Salve comprovantes e estabeleça substituto autorizado para ausências."
+      ],
+      "example": "A empresa está regular no SICAF, mas o edital utiliza outro portal. Ela verifica o credenciamento desse portal antes de cadastrar a proposta. Descobrir essa diferença no último minuto pode impedir a participação.",
+      "checklist": [
+        "Acesso testado na plataforma correta.",
+        "Representante com poderes e contato atualizado.",
+        "Documentos válidos, sem pendências ignoradas."
+      ],
+      "references": [
+        {
+          "source": "sicaf",
+          "detail": "Cadastro gratuito no ambiente federal."
+        },
+        {
+          "source": "fornecedor",
+          "detail": "Conta, credenciamento e complementação cadastral."
+        },
+        {
+          "source": "lei",
+          "detail": "Arts. 62 a 70 e 87 a 88."
+        }
+      ],
+      "quiz": {
+        "question": "Onde enviar a proposta encontrada pelo Radar?",
+        "options": [
+          "Sempre dentro do Radar.",
+          "Em qualquer página do PNCP.",
+          "No sistema de disputa indicado no edital."
+        ],
+        "correct": 2,
+        "explanation": "O Radar ajuda a localizar oportunidades. O envio deve ocorrer pelo canal oficial previsto no edital."
+      }
+    },
+    {
+      "id": "documentos",
+      "title": "Monte a pasta de habilitação",
+      "goal": "Organizar provas de capacidade e entender os benefícios para pequenos negócios.",
+      "concepts": [
+        {
+          "title": "Quatro grupos",
+          "text": "Separe habilitação jurídica; qualificação técnica; regularidade fiscal, social e trabalhista; e qualificação econômico-financeira. Os documentos concretos dependem da lei e do edital. Certidões, balanços, atestados e registros profissionais não são intercambiáveis. Um atestado deve refletir serviço realmente executado e permitir sua verificação."
+        },
+        {
+          "title": "ME/EPP: benefício não é dispensa geral",
+          "text": "A LC nº 123 prevê tratamento favorecido, sujeito às condições e limites legais, inclusive os do art. 4º da Lei nº 14.133. Havendo restrição fiscal ou trabalhista, a documentação deve ser apresentada e há prazo legal de cinco dias úteis a partir da declaração como vencedor, prorrogável por igual período a critério da Administração, para regularização. Isso não sana falta de capacidade técnica. O empate favorecido no pregão alcança a faixa de até 5% nas condições legais e dá oportunidade de cobrir a melhor oferta; não significa vitória automática."
+        }
+      ],
+      "steps": [
+        "Transforme cada exigência em uma linha: documento, emissor, validade, responsável e arquivo.",
+        "Confira razão social/CNPJ, poderes de assinatura, certidões tributárias, FGTS e CNDT, conforme exigências aplicáveis.",
+        "Separe balanços e índices pedidos, atestados pertinentes e registros técnicos exigíveis. Peça esclarecimento sobre condição duvidosa.",
+        "Valide arquivos digitais e certidões no emissor. Não altere PDFs, datas, assinaturas ou fatos para parecer habilitado.",
+        "Se declarar ME/EPP ou outro benefício, documente enquadramento e limites aplicáveis. Programe alertas de vencimento."
+      ],
+      "example": "Uma ME tem atestado de manutenção de 20 equipamentos, mas o edital exige comprovação compatível com outra dimensão. Ela analisa a exigência antes da proposta; o benefício fiscal de ME não cria experiência que ela não tem.",
+      "checklist": [
+        "Exigências mapeadas sem documentos fictícios.",
+        "Certidões verificadas e legíveis.",
+        "Benefício declarado somente quando cabível."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 4º e 62 a 70."
+        },
+        {
+          "source": "lc123",
+          "detail": "Arts. 42 a 49; especialmente 43 a 45."
+        }
+      ],
+      "quiz": {
+        "question": "O prazo de regularização da ME/EPP permite inventar experiência inexistente?",
+        "options": [
+          "Não; o benefício trata de regularidade fiscal e trabalhista nas condições legais.",
+          "Sim, qualquer pendência pode ser corrigida.",
+          "Sim, desde que o preço seja o menor."
+        ],
+        "correct": 0,
+        "explanation": "Capacidade técnica e regularidade fiscal/trabalhista têm requisitos distintos."
+      }
+    },
+    {
+      "id": "edital",
+      "title": "Encontre e analise a oportunidade",
+      "goal": "Decidir com segurança se a empresa deve disputar.",
+      "concepts": [
+        {
+          "title": "Leia além do resumo",
+          "text": "O objeto resumido no Radar e a classificação automática ajudam na triagem, mas não comprovam elegibilidade. Leia edital, termo de referência, minuta contratual, planilhas, anexos e retificações. Confira unidade, lotes, quantitativos, local, prazo, garantias, amostras, suporte, medição e pagamento."
+        },
+        {
+          "title": "Dúvidas antes da disputa",
+          "text": "Pela Lei nº 14.133, qualquer pessoa pode pedir esclarecimento ou impugnar irregularidade até três dias úteis antes da abertura, pelos meios previstos. A resposta deve observar o art. 164. Não presuma dias corridos nem que uma pergunta suspende o certame. Acompanhe retificações e eventual remarcação no canal oficial."
+        }
+      ],
+      "steps": [
+        "Pesquise no Radar por região, datas e objeto; abra o link oficial e confirme o status atual.",
+        "Baixe a versão mais recente do edital e identifique plataforma, horário, fuso, UASG quando houver e números do processo e dos itens.",
+        "Monte matriz com requisito, prova de atendimento, custo e risco. Inclua deslocamento, pessoal, logística, garantia e capital de giro.",
+        "Registre dúvidas objetivas: cite item, explique ambiguidade e peça esclarecimento pelo canal do edital dentro do prazo.",
+        "Decida participar apenas se consegue cumprir integralmente as exigências. Registre a justificativa interna antes da proposta."
+      ],
+      "example": "“Manutenção mensal” pode incluir peças e atendimento em várias cidades. Considerar apenas a visita técnica subestima o custo. A matriz evidencia se peças estão inclusas e se o deslocamento torna o preço inviável.",
+      "checklist": [
+        "Todos os anexos e retificações lidos.",
+        "Datas e forma de participação confirmadas.",
+        "Riscos de execução e pagamento calculados."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 25, 54 a 55, 92, 164 e 183."
+        },
+        {
+          "source": "pncp",
+          "detail": "Consulta oficial de editais e documentos."
+        }
+      ],
+      "quiz": {
+        "question": "Uma dúvida enviada ao órgão suspende automaticamente a sessão?",
+        "options": [
+          "Sim, sempre.",
+          "Não; acompanhe a decisão e os avisos oficiais.",
+          "Somente se enviada por mensagem particular."
+        ],
+        "correct": 1,
+        "explanation": "Não altere seu calendário sem verificar a decisão e a publicação oficial pertinente."
+      }
+    },
+    {
+      "id": "preco",
+      "title": "Calcule o preço e o capital de giro",
+      "goal": "Evitar propostas inexequíveis e separar lucro de disponibilidade de caixa.",
+      "concepts": [
+        {
+          "title": "Preço precisa pagar a execução",
+          "text": "Some insumos, mão de obra e encargos aplicáveis, transporte, licenças, equipamentos, seguros, garantia, despesas indiretas e contingências identificáveis. Estime tributos com a contabilidade conforme operação e regime. Em serviços com dedicação de mão de obra, considere instrumentos coletivos e a planilha exigida. Um preço abaixo do custo não se resolve apenas com volume."
+        },
+        {
+          "title": "Fluxo de caixa",
+          "text": "Lucro no papel não significa dinheiro disponível. Projete datas de salários, fornecedores, entrega, medição, nota, liquidação e pagamento. Não suponha adiantamento: pagamento antecipado é excepcional e depende das condições legais. Os exemplos são simulações pedagógicas, não tabelas tributárias nem margens recomendadas."
+        }
+      ],
+      "steps": [
+        "Quantifique o objeto por item e período. Confirme se a proposta pede valor unitário, mensal, anual ou total.",
+        "Obtenha cotações e estime custos com memória de cálculo; inclua garantia e atendimento posteriores.",
+        "Calcule preço e tributos sem duplicar bases. Quando usar percentuais sobre a receita, aplique a base correta.",
+        "Defina o menor preço aceito, com aprovação de quem responde financeiramente.",
+        "Simule atraso de recebimento e aumento de custos. Reserve capital de giro e não conte com contratação de todo o volume de uma ata."
+      ],
+      "example": "Exemplo simplificado: custos consolidados de R$ 8.500, tributos hipotéticos de 10% da receita e margem desejada de 5% da receita. Preço = 8.500 / (1 - 0,10 - 0,05) = R$ 10.000. Desses, R$ 1.000 seriam tributos e R$ 500 margem. A conta só vale com essas premissas; o lucro efetivo depende dos custos reais.",
+      "checklist": [
+        "Unidade e quantidade corretas.",
+        "Preço mínimo documentado.",
+        "Capital suficiente para executar antes de receber."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 59, 92, 121, 134 a 135 e 145."
+        }
+      ],
+      "quiz": {
+        "question": "Somar 15% sobre R$ 8.500 resulta no mesmo preço do exemplo?",
+        "options": [
+          "Sim, as bases são iguais.",
+          "Sim, se arredondar.",
+          "Não; os percentuais do exemplo incidem sobre a receita, não sobre o custo."
+        ],
+        "correct": 2,
+        "explanation": "R$ 8.500 × 1,15 = R$ 9.775. Para preservar percentuais sobre a receita, o exemplo divide por 0,85."
+      }
+    },
+    {
+      "id": "proposta",
+      "title": "Envie a proposta e participe do pregão",
+      "goal": "Executar a sequência de participação com rastreabilidade.",
+      "concepts": [
+        {
+          "title": "Antes de enviar",
+          "text": "Confira as declarações do sistema e envie somente informações verdadeiras. Produto, marca/modelo quando exigidos, escopo, validade e prazo devem atender ao edital. Registre o protocolo. No âmbito da IN nº 73/2022, é possível substituir ou retirar a proposta até a abertura, observadas as regras do procedimento."
+        },
+        {
+          "title": "Durante a sessão",
+          "text": "O modo de disputa pode variar. Leia o modo, os intervalos mínimos e os avisos. Quando aplicável a IN nº 73, no modo aberto a etapa começa com dez minutos e pode ter prorrogações de dois minutos; outros modos têm regras próprias. Não generalize essa duração para todo portal. Acompanhe mensagens, convocações, negociação e prazos mesmo depois dos lances."
+        }
+      ],
+      "steps": [
+        "Entre com antecedência, localize o certame e confirme item, lote, quantidade e unidade.",
+        "Cadastre preço/desconto, descrição e anexos exigidos. Revise casas decimais e declarações antes de confirmar.",
+        "Salve o comprovante e confira a proposta registrada para os itens certos.",
+        "Na sessão, acompanhe o chat oficial. Lance apenas dentro do limite econômico aprovado.",
+        "Após a disputa, responda à negociação e envie proposta ajustada e documentos no prazo da convocação.",
+        "Em erro ou indisponibilidade, registre evidências e use o canal oficial imediatamente. Não suponha que o sistema corrigirá um lance ou devolverá um prazo."
+      ],
+      "example": "A empresa tem piso de R$ 10.000 para o lote. O melhor lance chega a R$ 9.600. Ela para de reduzir e permanece acompanhando a sessão: perder uma disputa é melhor que assumir execução inviável. Uma eventual convocação posterior ainda deve ser acompanhada.",
+      "checklist": [
+        "Comprovante de proposta salvo.",
+        "Limite econômico respeitado.",
+        "Convocações acompanhadas até o encerramento."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 17 e 56 a 61."
+        },
+        {
+          "source": "in73",
+          "detail": "Arts. 18 a 29 e 39; aplicação conforme arts. 1º e 2º."
+        }
+      ],
+      "quiz": {
+        "question": "Após oferecer o menor lance, posso sair do sistema?",
+        "options": [
+          "Não; ainda podem existir negociação, anexos, habilitação e recursos.",
+          "Sim, a contratação já está garantida.",
+          "Sim, se o SICAF estiver ativo."
+        ],
+        "correct": 0,
+        "explanation": "Menor lance não equivale a proposta aceita, habilitação ou contratação."
+      }
+    },
+    {
+      "id": "recurso",
+      "title": "Habilitação, recursos e resultado",
+      "goal": "Acompanhar decisões e exercer defesa nos prazos corretos.",
+      "concepts": [
+        {
+          "title": "Diligência não permite fabricar documentos",
+          "text": "O órgão verifica proposta e habilitação e pode solicitar esclarecimentos. Responda objetivamente e preserve protocolo. A lei admite diligência para complementar informações sobre fatos existentes à época pertinente e atualizar documentos cuja validade expirou depois do recebimento das propostas. Não conte com uma chance ilimitada de criar requisitos após a disputa."
+        },
+        {
+          "title": "Intenção e razões são etapas diferentes",
+          "text": "Para julgamento de propostas e habilitação/inabilitação, a intenção de recorrer deve ser manifestada imediatamente, sob pena de preclusão, na forma legal e do sistema. As razões seguem o prazo de três dias úteis e o marco de contagem do art. 165, conforme a ordem das fases. Quando aplicável a IN nº 73, o sistema concede período não inferior a dez minutos para intenção. Contrarrazões têm prazo de três dias úteis, contado da intimação ou divulgação da interposição. Confira a ata e o regulamento."
+        }
+      ],
+      "steps": [
+        "Leia a decisão e o motivo da classificação, desclassificação ou inabilitação.",
+        "Em diligência, envie o que foi pedido no prazo e preserve comprovante e documento original.",
+        "Se houver fundamento para recurso, manifeste intenção no momento correto e registre a tela/ata.",
+        "Prepare razões com identificação do certame, decisão, fatos, item do edital, base jurídica, prova e pedido. Evite ataques pessoais e alegações sem suporte.",
+        "Acompanhe contrarrazões, decisão, adjudicação e homologação. Depois confira a convocação para contratar; vencer não autoriza iniciar serviços."
+      ],
+      "example": "Um documento válido foi desconsiderado. A empresa identifica a decisão, manifesta intenção no sistema e apresenta razões com o documento e o item do edital. Reclamação informal fora do canal não substitui a manifestação exigida.",
+      "checklist": [
+        "Decisão e prazos registrados.",
+        "Provas e protocolos guardados.",
+        "Resultado oficial e convocação acompanhados."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 64, 71 e 165 a 168."
+        },
+        {
+          "source": "in73",
+          "detail": "Arts. 39 a 45."
+        }
+      ],
+      "quiz": {
+        "question": "Manifestar intenção de recorrer dispensa apresentar as razões?",
+        "options": [
+          "Sim, o órgão deve presumir os argumentos.",
+          "Não; são atos distintos e têm momentos próprios.",
+          "Sim, quando a empresa é ME."
+        ],
+        "correct": 1,
+        "explanation": "A intenção preserva a oportunidade nos casos legais; as razões precisam ser apresentadas no prazo e canal corretos."
+      }
+    },
+    {
+      "id": "contrato",
+      "title": "Da vitória ao contrato e à ordem de serviço",
+      "goal": "Reconhecer quando existe autorização formal para executar.",
+      "concepts": [
+        {
+          "title": "Ata, contrato e empenho",
+          "text": "Homologação aprova o procedimento; adjudicação atribui o objeto ao vencedor. Uma ata de registro de preços registra condições para futuras contratações e não obriga a Administração a contratar todo o quantitativo. Contrato ou instrumento substitutivo formaliza obrigações. Empenho é ato orçamentário; pode funcionar como instrumento substitutivo apenas nas hipóteses admitidas pela lei."
+        },
+        {
+          "title": "Confira antes de assinar",
+          "text": "Compare o instrumento com edital e proposta: objeto, valor, prazo, reajuste, medição, pagamento, penalidades, garantias e responsabilidades. A divulgação no PNCP é condição de eficácia nos termos e prazos do art. 94, observadas as hipóteses legais. Não inicie apenas porque recebeu um telefonema ou viu seu nome como vencedor."
+        }
+      ],
+      "steps": [
+        "Acompanhe a convocação e assine/aceite no prazo. Se houver impedimento justificado, solicite providência antes do vencimento.",
+        "Confirme representante, poderes de assinatura, certidões e garantia exigida.",
+        "Leia as cláusulas e peça correção formal de divergências antes da execução.",
+        "Confirme contrato ou instrumento equivalente válido, empenho quando cabível e ordem/autorização de início prevista no instrumento.",
+        "Registre fiscal/gestor, preposto da empresa, canal de comunicação, cronograma, locais e forma de comprovar cada etapa."
+      ],
+      "example": "Uma ata prevê até 1.000 unidades. O órgão emite contratação de 100. A empresa executa as 100 autorizadas; não entrega nem fatura 1.000 esperando que a ata garanta a compra total.",
+      "checklist": [
+        "Instrumento conferido e assinado.",
+        "Autorização de execução identificada.",
+        "Cronograma e interlocutores definidos."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 83, 90 a 96 e 115."
+        },
+        {
+          "source": "4320",
+          "detail": "Arts. 58 a 61; significado de empenho."
+        }
+      ],
+      "quiz": {
+        "question": "Uma ata de registro de preços garante a compra de todo o volume estimado?",
+        "options": [
+          "Sim, basta entregar.",
+          "Sim, após o primeiro pedido.",
+          "Não; ela não obriga a Administração a contratar."
+        ],
+        "correct": 2,
+        "explanation": "A execução depende da contratação e da autorização correspondentes, não apenas da estimativa da ata."
+      }
+    },
+    {
+      "id": "execucao",
+      "title": "Execute o serviço e registre as entregas",
+      "goal": "Cumprir o escopo com provas para fiscalização e medição.",
+      "concepts": [
+        {
+          "title": "Uma rotina de evidências",
+          "text": "Entregue o objeto pactuado nos locais e prazos acordados. O fiscal acompanha a execução, mas não elimina a responsabilidade do contratado. Mantenha preposto quando exigido, ordens de serviço, registros de visita, materiais aplicados, chamados, testes e aceite. Proteja dados pessoais e informações do órgão conforme o contrato e a legislação aplicável."
+        },
+        {
+          "title": "Mudanças precisam de tratamento formal",
+          "text": "Não aceite aumento de escopo, troca de produto, extensão de prazo ou serviço adicional apenas verbalmente. Encaminhe justificativa, impacto de custo/prazo e pedido pelo canal contratual. Alterações, reajuste, repactuação e reequilíbrio têm fundamentos e requisitos diferentes. Subcontratação só nas condições e limites autorizados; a responsabilidade da contratada permanece."
+        }
+      ],
+      "steps": [
+        "Faça reunião de início e confirme entregáveis, dependências e critérios de aceitação.",
+        "Para cada ordem, registre data, responsável, equipe, local, quantidade e prazo.",
+        "Execute com materiais e profissionais adequados; mantenha obrigações trabalhistas e previdenciárias quando houver empregados.",
+        "Reúna evidências contemporâneas: relatórios, testes, protocolos e recibos. Fotos só quando pertinentes e autorizadas.",
+        "Comunique risco ou atraso assim que identificado e proponha correção. Solicite mudanças por escrito, sem pressupor aprovação.",
+        "Concilie execução com planilha contratual antes da medição."
+      ],
+      "example": "Na manutenção mensal, registre equipamento, defeito, solução, data, responsável e teste. Se o órgão pedir manutenção fora do contrato, solicite o tratamento formal cabível antes de faturar esse acréscimo.",
+      "checklist": [
+        "Entregas vinculadas às ordens autorizadas.",
+        "Evidências organizadas e verificáveis.",
+        "Desvios comunicados e tratados formalmente."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 115 a 123 e 124 a 136."
+        }
+      ],
+      "quiz": {
+        "question": "O fiscal pediu um serviço adicional por telefone. Posso executar e cobrar automaticamente?",
+        "options": [
+          "Não; é necessário tratar a alteração e sua autorização formal conforme a lei.",
+          "Sim, qualquer pedido verbal altera o contrato.",
+          "Sim, se o valor for pequeno."
+        ],
+        "correct": 0,
+        "explanation": "A fala do fiscal não substitui o procedimento e a competência para modificar obrigações contratuais."
+      }
+    },
+    {
+      "id": "medicao",
+      "title": "Medição, recebimento e correções",
+      "goal": "Comprovar o que foi realizado e separar recebimento de pagamento.",
+      "concepts": [
+        {
+          "title": "Como o objeto é aceito",
+          "text": "Confira os critérios e prazos de recebimento no contrato. O art. 140 distingue recebimento provisório e definitivo, com procedimentos próprios para obras/serviços e compras. Receber fisicamente uma caixa ou relatório não significa aceitar definitivamente qualidade, quantidade e conformidade. O objeto pode ser rejeitado no todo ou em parte."
+        },
+        {
+          "title": "Medição não é estimativa livre",
+          "text": "Cobre a unidade contratada: horas autorizadas, postos, resultados, unidades ou marcos, conforme o ajuste. Descontos por desempenho e glosas devem ser fundamentados. Corrigir vícios e manter garantia pode continuar obrigatório após o recebimento. Se houver controvérsia sobre parte da execução, o art. 143 determina liberação da parcela incontroversa no prazo de pagamento."
+        }
+      ],
+      "steps": [
+        "Prepare relatório com período, contrato, ordem, itens, quantidades, valores e evidências.",
+        "Compare o relatório com escopo e indicadores; exclua cobrança duplicada ou não autorizada.",
+        "Protocole ao fiscal/gestor pelo canal contratual e acompanhe recebimento, vistoria e pendências.",
+        "Se houver glosa, peça item, motivo e memória de cálculo; corrija erro ou apresente manifestação documentada.",
+        "Obtenha termos, atestes ou registros de recebimento aplicáveis e acompanhe a parcela reconhecida separadamente."
+      ],
+      "example": "De 50 unidades entregues, 48 passaram na inspeção e 2 foram rejeitadas. A empresa identifica as unidades, corrige o problema e concilia a medição. Não declara 50 aceitas apenas porque entregou 50 no almoxarifado.",
+      "checklist": [
+        "Quantidades e período conciliados.",
+        "Ateste/recebimento acompanhado.",
+        "Pendências e parcela incontroversa identificadas."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 119, 140 e 143."
+        },
+        {
+          "source": "4320",
+          "detail": "Art. 63; verificação do direito do credor."
+        }
+      ],
+      "quiz": {
+        "question": "Recebimento provisório é o mesmo que dinheiro creditado?",
+        "options": [
+          "Sim, o banco recebe a ordem automaticamente.",
+          "Não; aceitação, liquidação e pagamento são etapas distintas.",
+          "Sim, se houver nota fiscal."
+        ],
+        "correct": 1,
+        "explanation": "A comprovação da execução sustenta a liquidação, mas o pagamento ainda precisa cumprir seu procedimento."
+      }
+    },
+    {
+      "id": "pagamento",
+      "title": "Emita a nota, acompanhe e receba",
+      "goal": "Controlar cobrança, liquidação e crédito bancário.",
+      "concepts": [
+        {
+          "title": "O caminho da cobrança",
+          "text": "A nota fiscal deve refletir a operação real e as regras fiscais aplicáveis; combine o fluxo de apresentação com o fiscal e a contabilidade. Entregue a documentação de cobrança prevista, com protocolo. Liquidação verifica o direito do credor, o valor e o destinatário. Pagamento quita a obrigação após autorização. O crédito líquido pode diferir do bruto por retenções legais ou glosas fundamentadas."
+        },
+        {
+          "title": "Prazos não são promessa universal de 30 dias",
+          "text": "Leia a cláusula de liquidação e pagamento. No âmbito da IN SEGES/ME nº 77/2022, o limite geral é de dez dias úteis para liquidação a partir do recebimento da cobrança e dez dias úteis para pagamento após liquidar. Há exceções, possibilidade justificada de prorrogar liquidação, redução de prazos nas hipóteses previstas e exclusão do período de saneamento de inconsistências. A norma federal não deve ser aplicada automaticamente a todo município. A ordem cronológica segue categorias e fonte de recursos, com exceções legalmente justificadas."
+        }
+      ],
+      "steps": [
+        "Confira tomador, CNPJ, descrição, competência, item contratual, valor, retenções e dados bancários; respeite a legislação fiscal e o instrumento.",
+        "Apresente a nota e anexos pelo canal oficial no fluxo contratual. Guarde protocolo com data.",
+        "Controle: nota, bruto, retenções, glosas, líquido, recebimento pelo órgão, pendências, liquidação, vencimento e crédito.",
+        "Responda rapidamente à correção. Guarde documento corrigido e protocolo sem apagar a trilha anterior.",
+        "No vencimento, concilie banco e processo. Se não recebeu, solicite status, motivo, previsão e posição na ordem cronológica pelos canais formais."
+      ],
+      "example": "Simulação: nota de R$ 10.000, retenções hipotéticas de R$ 600 e glosa fundamentada de R$ 200 resultam em R$ 9.200 líquidos. Confira comprovantes e questione a glosa se discordar. Esses valores não são alíquotas recomendadas; retenções dependem da operação e do regime.",
+      "checklist": [
+        "Nota correta com protocolo.",
+        "Liquidação e vencimento acompanhados.",
+        "Crédito e retenções conciliados."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 92, VI, e 141 a 146."
+        },
+        {
+          "source": "4320",
+          "detail": "Arts. 62 a 65."
+        },
+        {
+          "source": "in77",
+          "detail": "Arts. 1º, 5º a 8º; escopo federal e exceções aos prazos."
+        }
+      ],
+      "quiz": {
+        "question": "O prazo federal pode ser tratado como regra automática de qualquer prefeitura?",
+        "options": [
+          "Sim, sem consultar o contrato.",
+          "Sim, se a nota for eletrônica.",
+          "Não; verifique o regime, regulamento e cláusulas aplicáveis."
+        ],
+        "correct": 2,
+        "explanation": "A IN nº 77 tem âmbito federal. Confira o instrumento e as normas aplicáveis ao caso."
+      }
+    },
+    {
+      "id": "encerramento",
+      "title": "Resolva pendências e encerre o contrato",
+      "goal": "Prevenir sanções e concluir sem perder documentos ou direitos.",
+      "concepts": [
+        {
+          "title": "Atrasos e divergências",
+          "text": "Em atraso de pagamento, documente fatos e apresente cobrança formal. Reajuste, repactuação, reequilíbrio e compensação por atraso exigem análise do contrato e dos requisitos legais. A lei contempla situações de suspensão ou extinção por inadimplemento da Administração, inclusive hipóteses do art. 137, mas é preciso observar condições, exceções e procedimento. Um simples atraso não autoriza automaticamente abandonar o serviço."
+        },
+        {
+          "title": "Sanções e defesa",
+          "text": "Deixar de entregar documentos, não manter proposta, recusar contratação sem justificativa, executar irregularmente ou fraudar pode gerar responsabilização. A Lei nº 14.133 prevê advertência, multa, impedimento e declaração de inidoneidade conforme o caso. Sanções exigem procedimento e defesa nos termos legais. Registre intimações, prazos e provas; busque apoio jurídico em controvérsia ou risco de sanção."
+        }
+      ],
+      "steps": [
+        "Resolva ou registre pendências finais, correções, equipamentos, acessos, materiais e documentos a devolver.",
+        "Peça recebimento definitivo conforme o objeto e confira medições finais, saldo e pagamentos.",
+        "Solicite liberação da garantia quando cabível, observados instrumento, obrigações e condições legais.",
+        "Peça atestado fiel ao executado, com período, objeto e quantitativos verificáveis; não solicite experiência inexistente.",
+        "Arquive contrato, aditivos, ordens, evidências, notas, atestes, pagamentos e garantias pelo prazo legal/contratual aplicável.",
+        "Apure margem real e lições aprendidas. Concluir o serviço não apaga obrigações de garantia ou responsabilidade."
+      ],
+      "example": "O serviço terminou, mas há uma correção pendente e uma nota não liquidada. A empresa acompanha cada pendência, mantém a documentação e só considera o ciclo financeiro encerrado após conciliar o saldo, sem presumir que isso elimina a garantia.",
+      "checklist": [
+        "Pendências e garantias controladas.",
+        "Saldo financeiro conciliado.",
+        "Documentação final e atestado solicitados."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 96 a 102, 124 a 140 e 155 a 168."
+        }
+      ],
+      "quiz": {
+        "question": "O contrato terminou. Posso apagar relatórios e notas?",
+        "options": [
+          "Não; mantenha o arquivo pelo prazo legal e contratual aplicável.",
+          "Sim, depois da última visita.",
+          "Sim, se pedir um atestado."
+        ],
+        "correct": 0,
+        "explanation": "Documentos comprovam execução, pagamentos, responsabilidade e experiência em futuras contratações."
+      }
+    },
+    {
+      "id": "leilao",
+      "title": "Trilha específica: participar de um leilão",
+      "goal": "Entender o procedimento quando o poder público vende um bem.",
+      "concepts": [
+        {
+          "title": "Aqui você paga para adquirir",
+          "text": "O leilão de alienação da Lei nº 14.133 tem julgamento por maior lance. Seu objetivo é adquirir um bem, não obter contrato de serviço. O art. 31 afasta exigência de registro cadastral prévio e fase de habilitação; identificação e acesso operacional ao sistema devem seguir o edital sem serem confundidos com habilitação típica de fornecedor."
+        },
+        {
+          "title": "Examine o bem e o edital",
+          "text": "Verifique descrição, estado, avaliação, preço mínimo, localização, ônus, visitação, pagamento, comissão quando houver, tributos, transporte, transferência e retirada. Leilões judiciais, aduaneiros ou de outras naturezas podem seguir regras distintas; não aplique este roteiro automaticamente. Parcelamento e entrega dependem do procedimento, não da vontade do arrematante."
+        }
+      ],
+      "steps": [
+        "Confirme a autenticidade do edital e do endereço do leilão pelo canal oficial do órgão.",
+        "Leia o regime e examine o bem/documentação; agende visita ou análise técnica quando disponível.",
+        "Prepare identificação e acesso operacional previstos. Some lance, comissão, tributos, regularização, transporte e reparos.",
+        "Defina teto total e ofereça lances sem ultrapassá-lo. Guarde comprovantes e acompanhe a fase recursal aplicável.",
+        "Se vencedor, siga pagamento e condições do edital; confira beneficiário e instruções no canal oficial.",
+        "Acompanhe homologação, formalização, transferência e retirada nos momentos previstos. Guarde recibos e documento de aquisição."
+      ],
+      "example": "Um veículo tem lance de R$ 20.000, mas transporte, comissão e reparos estimados elevam o desembolso a R$ 26.000. O interessado decide pelo custo total. Ele não espera receber do órgão: sua obrigação é pagar para adquirir o bem.",
+      "checklist": [
+        "Modalidade e regime de alienação confirmados.",
+        "Bem e custo total examinados.",
+        "Pagamento e retirada entendidos antes do lance."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 6º, XL, 31, 33, V, e 76."
+        }
+      ],
+      "quiz": {
+        "question": "No leilão de alienação, quem normalmente paga pelo bem?",
+        "options": [
+          "O órgão paga ao vencedor por um serviço.",
+          "O arrematante paga para adquirir o bem.",
+          "Ninguém paga se o lance superar a avaliação."
+        ],
+        "correct": 1,
+        "explanation": "O fluxo é oposto ao fornecimento: o poder público aliena e o arrematante paga nas condições do edital."
+      }
+    },
+    {
+      "id": "pratica",
+      "title": "Caso completo e modelos de trabalho",
+      "goal": "Reunir as etapas em um plano para um edital real.",
+      "concepts": [
+        {
+          "title": "Caso didático: manutenção de equipamentos",
+          "text": "Uma empresa regular encontra pregão de manutenção de 20 equipamentos. Confere cadastro, edital e capacidade, calcula custos e apresenta proposta de R$ 10.000 no exemplo. Após disputa e análise, é habilitada; acompanha recursos e homologação. Só mobiliza equipe após formalização e autorização aplicáveis. Executa, registra testes, submete medição, apresenta nota pelo fluxo contratual, acompanha liquidação e concilia o recebimento. Nenhuma dessas etapas isoladamente garante a seguinte."
+        },
+        {
+          "title": "Modelos livres para adaptar",
+          "text": "Ficha da oportunidade: órgão | processo | item | plataforma | regime | abertura | prazo de dúvidas | responsável | decisão. Matriz de habilitação: requisito | documento | emissor | validade | arquivo | pendência. Relatório de execução: contrato | ordem | período | atividade | quantidade | evidência | responsável | ocorrência. Controle financeiro: nota | bruto | retenções | glosa | líquido | protocolo | liquidação | vencimento | crédito. São ferramentas de organização, não formulários oficiais obrigatórios."
+        }
+      ],
+      "steps": [
+        "Escolha um edital e preencha a ficha sem enviar proposta apenas para experimentar.",
+        "Marque exigências como atendidas, pendentes ou não atendidas e registre os documentos correspondentes.",
+        "Faça planilha de custos e calendário de caixa com premissas identificadas.",
+        "Simule a sequência completa: proposta, convocação, contrato, ordem, execução, medição, cobrança e recebimento.",
+        "Redija pedido de esclarecimento com identificação, item, dúvida objetiva, impacto e pergunta. Envie somente se necessário e pelo canal próprio.",
+        "Revise os pontos em que errou. Use os cursos externos para aprofundamento e confira novamente normas e edital antes de participar."
+      ],
+      "example": "Modelo de cobrança: “Referente ao contrato [número], nota [número], protocolada em [data], solicitamos informar o estágio da liquidação/pagamento e eventuais pendências, indicando o item contratual aplicável. Anexamos o protocolo e comprovantes de execução.” Preencha com dados reais e trate valores controvertidos separadamente.",
+      "checklist": [
+        "Consigo explicar o ciclo inteiro sem pular a contratação.",
+        "Sei onde conferir prazos e condições.",
+        "Organizei provas e controle financeiro."
+      ],
+      "references": [
+        {
+          "source": "lei",
+          "detail": "Arts. 17, 62 a 70, 90 a 95, 115 a 146 e 164 a 168."
+        },
+        {
+          "source": "4320",
+          "detail": "Arts. 58 a 65; encadeamento orçamentário e financeiro."
+        }
+      ],
+      "quiz": {
+        "question": "Qual sequência representa melhor o ciclo de fornecimento?",
+        "options": [
+          "Lance, entrega informal e cobrança sem documento.",
+          "CNPJ, nota fiscal e recebimento garantido.",
+          "Cadastro, edital, proposta/disputa, julgamento/habilitação, resultado, contratação, execução, medição/cobrança, liquidação e pagamento."
+        ],
+        "correct": 2,
+        "explanation": "Cada fase tem requisitos próprios. A ordem de algumas fases pode variar legalmente, e o edital define o procedimento concreto."
+      }
+    }
+  ],
+  "external_courses": [
+    {
+      "title": "Nova Lei de Licitações e Contratos: aspectos gerais e pontos de atenção",
+      "url": "https://www5.escolavirtual.gov.br/curso/887/governoes",
+      "alternative_url": "https://www.escolavirtual.gov.br/curso/887",
+      "description": "Visão geral para aprofundar os fundamentos e pontos de atenção da legislação."
+    },
+    {
+      "title": "Nova Lei de Licitações: modalidade e seleção de fornecedores",
+      "url": "https://www.escolavirtual.gov.br/curso/439",
+      "description": "Aprofundamento sobre modalidades e seleção de fornecedores."
+    },
+    {
+      "title": "Formação de Pregoeiros - Teoria",
+      "url": "https://www.escolavirtual.gov.br/curso/942",
+      "description": "Foco no pregoeiro e nos agentes públicos; ajuda o fornecedor a compreender a condução do procedimento."
+    }
+  ],
+  "external_note": "Cursos gratuitos externos da Escola Virtual de Governo. Inscrição, disponibilidade, avaliação e eventual certificado seguem as regras da EV.G/Enap; a conclusão aqui não equivale à conclusão lá. Acesso externo requer internet. Links verificados em 08/10/2026."
+}

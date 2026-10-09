@@ -1,0 +1,1710 @@
+{
+  "schema_version": 1,
+  "settings": {
+    "minimum": 4,
+    "medium": 7,
+    "high": 12,
+    "margin": 2,
+    "context_window": 12
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tecnologia da Informação",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 2,
+      "name": "Construção Civil",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 3,
+      "name": "Saúde",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 4,
+      "name": "Educação",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 5,
+      "name": "Segurança",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 6,
+      "name": "Transporte e Logística",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 7,
+      "name": "Serviços Gerais",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 8,
+      "name": "Alimentação",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 9,
+      "name": "Mobiliário e Materiais",
+      "description": "",
+      "active": true,
+      "priority": 0
+    },
+    {
+      "id": 10,
+      "name": "Não Classificado",
+      "description": "Reservada para ausência de evidência ou conflito.",
+      "active": true,
+      "priority": 0
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Software e Sistemas",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Hardware e Equipamentos",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "Redes e Infraestrutura",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "name": "Manutenção e Suporte Técnico",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "name": "Serviços de Nuvem e Hospedagem",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "name": "Construção",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 7,
+      "category_id": 2,
+      "name": "Reforma",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "name": "Pavimentação",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "name": "Obras públicas",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 10,
+      "category_id": 2,
+      "name": "Infraestrutura urbana",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 11,
+      "category_id": 2,
+      "name": "Instalações prediais",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 12,
+      "category_id": 3,
+      "name": "Medicamentos",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 13,
+      "category_id": 3,
+      "name": "Equipamentos médicos",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 14,
+      "category_id": 3,
+      "name": "Materiais hospitalares",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 15,
+      "category_id": 3,
+      "name": "Serviços de saúde",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 16,
+      "category_id": 3,
+      "name": "Exames e diagnósticos",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 17,
+      "category_id": 4,
+      "name": "Material didático",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 18,
+      "category_id": 4,
+      "name": "Equipamentos escolares",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 19,
+      "category_id": 4,
+      "name": "Transporte escolar",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 20,
+      "category_id": 4,
+      "name": "Serviços educacionais",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 21,
+      "category_id": 4,
+      "name": "Mobiliário escolar",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 22,
+      "category_id": 5,
+      "name": "Vigilância patrimonial",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 23,
+      "category_id": 5,
+      "name": "Videomonitoramento",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 24,
+      "category_id": 5,
+      "name": "Controle de acesso",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 25,
+      "category_id": 5,
+      "name": "Alarmes e sensores",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 26,
+      "category_id": 5,
+      "name": "Equipamentos de segurança",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 27,
+      "category_id": 6,
+      "name": "Transporte de passageiros",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 28,
+      "category_id": 6,
+      "name": "Transporte de cargas",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 29,
+      "category_id": 6,
+      "name": "Locação de veículos",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 30,
+      "category_id": 6,
+      "name": "Manutenção de frota",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 31,
+      "category_id": 6,
+      "name": "Logística",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 32,
+      "category_id": 7,
+      "name": "Limpeza e conservação",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 33,
+      "category_id": 7,
+      "name": "Jardinagem",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 34,
+      "category_id": 7,
+      "name": "Dedetização",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 35,
+      "category_id": 7,
+      "name": "Serviços terceirizados",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 36,
+      "category_id": 7,
+      "name": "Manutenção predial",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 37,
+      "category_id": 8,
+      "name": "Gêneros alimentícios",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 38,
+      "category_id": 8,
+      "name": "Merenda escolar",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 39,
+      "category_id": 8,
+      "name": "Refeições preparadas",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 40,
+      "category_id": 8,
+      "name": "Serviços de alimentação",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 41,
+      "category_id": 9,
+      "name": "Móveis",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 42,
+      "category_id": 9,
+      "name": "Material de escritório",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 43,
+      "category_id": 9,
+      "name": "Material de expediente",
+      "description": "",
+      "active": true
+    },
+    {
+      "id": 44,
+      "category_id": 9,
+      "name": "Suprimentos administrativos",
+      "description": "",
+      "active": true
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "subcategory_id": 1,
+      "expression": "software",
+      "synonyms": [
+        "softwares"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 2,
+      "subcategory_id": 1,
+      "expression": "licenciamento de software",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 3,
+      "subcategory_id": 1,
+      "expression": "sistema de gestão",
+      "synonyms": [
+        "sistemas de gestão"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 4,
+      "subcategory_id": 1,
+      "expression": "sistema informatizado",
+      "synonyms": [
+        "sistemas informatizados"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 5,
+      "subcategory_id": 1,
+      "expression": "desenvolvimento de sistemas",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 6,
+      "subcategory_id": 1,
+      "expression": "aplicativo",
+      "synonyms": [
+        "aplicativos"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 7,
+      "subcategory_id": 1,
+      "expression": "ERP",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 8,
+      "subcategory_id": 1,
+      "expression": "solução de software",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 9,
+      "subcategory_id": 1,
+      "expression": "implantação de sistema",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 10,
+      "subcategory_id": 2,
+      "expression": "computador",
+      "synonyms": [
+        "computadores",
+        "microcomputador",
+        "microcomputadores"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 11,
+      "subcategory_id": 2,
+      "expression": "notebook",
+      "synonyms": [
+        "notebooks"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 12,
+      "subcategory_id": 2,
+      "expression": "desktop",
+      "synonyms": [
+        "desktops"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 13,
+      "subcategory_id": 2,
+      "expression": "estação de trabalho",
+      "synonyms": [
+        "estações de trabalho"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 14,
+      "subcategory_id": 2,
+      "expression": "servidor de informática",
+      "synonyms": [
+        "servidores de informática"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 15,
+      "subcategory_id": 2,
+      "expression": "impressora",
+      "synonyms": [
+        "impressoras"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 16,
+      "subcategory_id": 2,
+      "expression": "periférico",
+      "synonyms": [
+        "periféricos"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 17,
+      "subcategory_id": 2,
+      "expression": "equipamentos de informática",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 18,
+      "subcategory_id": 3,
+      "expression": "cabeamento estruturado",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 19,
+      "subcategory_id": 3,
+      "expression": "switch de rede",
+      "synonyms": [
+        "switches de rede"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 20,
+      "subcategory_id": 3,
+      "expression": "roteador",
+      "synonyms": [
+        "roteadores"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 21,
+      "subcategory_id": 3,
+      "expression": "firewall",
+      "synonyms": [
+        "firewalls"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 22,
+      "subcategory_id": 3,
+      "expression": "rede de computadores",
+      "synonyms": [
+        "redes de computadores"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 23,
+      "subcategory_id": 3,
+      "expression": "infraestrutura de rede",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 24,
+      "subcategory_id": 3,
+      "expression": "access point",
+      "synonyms": [
+        "access points"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 25,
+      "subcategory_id": 3,
+      "expression": "wi fi corporativo",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 26,
+      "subcategory_id": 4,
+      "expression": "manutenção de computadores",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 27,
+      "subcategory_id": 4,
+      "expression": "suporte técnico de informática",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 28,
+      "subcategory_id": 4,
+      "expression": "assistência técnica em TI",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 29,
+      "subcategory_id": 4,
+      "expression": "manutenção de notebooks",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 30,
+      "subcategory_id": 4,
+      "expression": "suporte de redes",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 31,
+      "subcategory_id": 4,
+      "expression": "help desk",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 32,
+      "subcategory_id": 4,
+      "expression": "service desk",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 33,
+      "subcategory_id": 5,
+      "expression": "hospedagem de sites",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 34,
+      "subcategory_id": 5,
+      "expression": "computação em nuvem",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 35,
+      "subcategory_id": 5,
+      "expression": "cloud computing",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 36,
+      "subcategory_id": 5,
+      "expression": "infraestrutura como serviço",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 37,
+      "subcategory_id": 5,
+      "expression": "servidor virtual",
+      "synonyms": [
+        "servidores virtuais"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 38,
+      "subcategory_id": 5,
+      "expression": "backup em nuvem",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 39,
+      "subcategory_id": 6,
+      "expression": "construção de edifício",
+      "synonyms": [
+        "construção de edifícios"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 40,
+      "subcategory_id": 6,
+      "expression": "construção civil",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 41,
+      "subcategory_id": 7,
+      "expression": "reforma predial",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 42,
+      "subcategory_id": 7,
+      "expression": "reforma de escola",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 43,
+      "subcategory_id": 7,
+      "expression": "reforma de prédio",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 44,
+      "subcategory_id": 8,
+      "expression": "pavimentação asfáltica",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 45,
+      "subcategory_id": 8,
+      "expression": "pavimentação",
+      "synonyms": [
+        "pavimentações"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 46,
+      "subcategory_id": 9,
+      "expression": "obras públicas",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 47,
+      "subcategory_id": 9,
+      "expression": "obra de engenharia",
+      "synonyms": [
+        "obras de engenharia"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 48,
+      "subcategory_id": 10,
+      "expression": "rede de esgoto",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 49,
+      "subcategory_id": 10,
+      "expression": "rede de abastecimento de água",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 50,
+      "subcategory_id": 10,
+      "expression": "sistema de drenagem",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 51,
+      "subcategory_id": 10,
+      "expression": "infraestrutura urbana",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 52,
+      "subcategory_id": 11,
+      "expression": "instalações prediais",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 53,
+      "subcategory_id": 11,
+      "expression": "instalação elétrica",
+      "synonyms": [
+        "instalações elétricas"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 54,
+      "subcategory_id": 12,
+      "expression": "medicamento",
+      "synonyms": [
+        "medicamentos"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 55,
+      "subcategory_id": 12,
+      "expression": "insumo farmacêutico",
+      "synonyms": [
+        "insumos farmacêuticos"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 56,
+      "subcategory_id": 13,
+      "expression": "equipamentos médicos",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 57,
+      "subcategory_id": 13,
+      "expression": "equipamento hospitalar",
+      "synonyms": [
+        "equipamentos hospitalares"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 58,
+      "subcategory_id": 14,
+      "expression": "materiais hospitalares",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 59,
+      "subcategory_id": 14,
+      "expression": "seringa",
+      "synonyms": [
+        "seringas"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 60,
+      "subcategory_id": 15,
+      "expression": "serviços de saúde",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 61,
+      "subcategory_id": 15,
+      "expression": "atendimento médico",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 62,
+      "subcategory_id": 16,
+      "expression": "exames laboratoriais",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 63,
+      "subcategory_id": 16,
+      "expression": "diagnóstico por imagem",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 64,
+      "subcategory_id": 17,
+      "expression": "material didático",
+      "synonyms": [
+        "materiais didáticos"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 65,
+      "subcategory_id": 17,
+      "expression": "livro didático",
+      "synonyms": [
+        "livros didáticos"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 66,
+      "subcategory_id": 18,
+      "expression": "equipamentos escolares",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 67,
+      "subcategory_id": 19,
+      "expression": "transporte escolar",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 68,
+      "subcategory_id": 19,
+      "expression": "ônibus escolar",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 69,
+      "subcategory_id": 20,
+      "expression": "serviços educacionais",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 70,
+      "subcategory_id": 20,
+      "expression": "capacitação de professores",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 71,
+      "subcategory_id": 21,
+      "expression": "mobiliário escolar",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 72,
+      "subcategory_id": 21,
+      "expression": "carteira escolar",
+      "synonyms": [
+        "carteiras escolares"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 73,
+      "subcategory_id": 22,
+      "expression": "vigilância patrimonial",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 74,
+      "subcategory_id": 22,
+      "expression": "vigilante",
+      "synonyms": [
+        "vigilantes"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 75,
+      "subcategory_id": 23,
+      "expression": "videomonitoramento",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 76,
+      "subcategory_id": 23,
+      "expression": "câmera de segurança",
+      "synonyms": [
+        "câmeras de segurança"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 77,
+      "subcategory_id": 23,
+      "expression": "circuito fechado de televisão",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 78,
+      "subcategory_id": 24,
+      "expression": "controle de acesso físico",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 79,
+      "subcategory_id": 24,
+      "expression": "catraca",
+      "synonyms": [
+        "catracas"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 80,
+      "subcategory_id": 25,
+      "expression": "alarme de segurança",
+      "synonyms": [
+        "alarmes de segurança"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 81,
+      "subcategory_id": 25,
+      "expression": "sensor de presença",
+      "synonyms": [
+        "sensores de presença"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 82,
+      "subcategory_id": 26,
+      "expression": "equipamentos de segurança",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 83,
+      "subcategory_id": 26,
+      "expression": "colete balístico",
+      "synonyms": [
+        "coletes balísticos"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 84,
+      "subcategory_id": 27,
+      "expression": "transporte de passageiros",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 85,
+      "subcategory_id": 28,
+      "expression": "transporte de cargas",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 86,
+      "subcategory_id": 28,
+      "expression": "frete rodoviário",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 87,
+      "subcategory_id": 29,
+      "expression": "locação de veículos",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 88,
+      "subcategory_id": 29,
+      "expression": "aluguel de veículos",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 89,
+      "subcategory_id": 30,
+      "expression": "manutenção de frota",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 90,
+      "subcategory_id": 30,
+      "expression": "manutenção de veículos",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 91,
+      "subcategory_id": 31,
+      "expression": "serviços de logística",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 92,
+      "subcategory_id": 31,
+      "expression": "armazenagem de mercadorias",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 93,
+      "subcategory_id": 32,
+      "expression": "limpeza e conservação",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 94,
+      "subcategory_id": 32,
+      "expression": "limpeza predial",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 95,
+      "subcategory_id": 33,
+      "expression": "jardinagem",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 96,
+      "subcategory_id": 33,
+      "expression": "poda de árvores",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 97,
+      "subcategory_id": 34,
+      "expression": "dedetização",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 98,
+      "subcategory_id": 34,
+      "expression": "controle de pragas",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 99,
+      "subcategory_id": 35,
+      "expression": "serviços terceirizados",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 100,
+      "subcategory_id": 35,
+      "expression": "terceirização de mão de obra",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 101,
+      "subcategory_id": 36,
+      "expression": "manutenção predial",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 102,
+      "subcategory_id": 37,
+      "expression": "gêneros alimentícios",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 103,
+      "subcategory_id": 37,
+      "expression": "cesta básica",
+      "synonyms": [
+        "cestas básicas"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 104,
+      "subcategory_id": 38,
+      "expression": "merenda escolar",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 105,
+      "subcategory_id": 38,
+      "expression": "alimentação escolar",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 106,
+      "subcategory_id": 39,
+      "expression": "refeições preparadas",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 107,
+      "subcategory_id": 39,
+      "expression": "marmita",
+      "synonyms": [
+        "marmitas"
+      ],
+      "kind": "inclusion",
+      "weight": 5,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 108,
+      "subcategory_id": 40,
+      "expression": "serviços de alimentação",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 109,
+      "subcategory_id": 40,
+      "expression": "serviços de buffet",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 110,
+      "subcategory_id": 41,
+      "expression": "móveis de escritório",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 111,
+      "subcategory_id": 41,
+      "expression": "mobiliário de escritório",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 112,
+      "subcategory_id": 42,
+      "expression": "material de escritório",
+      "synonyms": [
+        "materiais de escritório"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 113,
+      "subcategory_id": 43,
+      "expression": "material de expediente",
+      "synonyms": [
+        "materiais de expediente"
+      ],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 114,
+      "subcategory_id": 44,
+      "expression": "suprimentos administrativos",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 115,
+      "subcategory_id": 44,
+      "expression": "papel a4",
+      "synonyms": [],
+      "kind": "inclusion",
+      "weight": 8,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 116,
+      "subcategory_id": 4,
+      "expression": "computador",
+      "synonyms": [
+        "computadores",
+        "microcomputador",
+        "microcomputadores"
+      ],
+      "kind": "contextual",
+      "weight": 10,
+      "active": true,
+      "context": [
+        "manutenção",
+        "suporte técnico",
+        "assistência técnica"
+      ]
+    },
+    {
+      "id": 117,
+      "subcategory_id": 4,
+      "expression": "notebook",
+      "synonyms": [
+        "notebooks"
+      ],
+      "kind": "contextual",
+      "weight": 10,
+      "active": true,
+      "context": [
+        "manutenção",
+        "suporte técnico",
+        "assistência técnica"
+      ]
+    },
+    {
+      "id": 118,
+      "subcategory_id": 4,
+      "expression": "equipamentos de rede",
+      "synonyms": [],
+      "kind": "contextual",
+      "weight": 10,
+      "active": true,
+      "context": [
+        "manutenção",
+        "suporte técnico",
+        "assistência técnica"
+      ]
+    },
+    {
+      "id": 119,
+      "subcategory_id": 3,
+      "expression": "rede de esgoto",
+      "synonyms": [],
+      "kind": "exclusion",
+      "weight": 0,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 120,
+      "subcategory_id": 3,
+      "expression": "rede elétrica",
+      "synonyms": [],
+      "kind": "exclusion",
+      "weight": 0,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 121,
+      "subcategory_id": 3,
+      "expression": "rede de água",
+      "synonyms": [],
+      "kind": "exclusion",
+      "weight": 0,
+      "active": true,
+      "context": []
+    },
+    {
+      "id": 122,
+      "subcategory_id": 3,
+      "expression": "rede escolar",
+      "synonyms": [],
+      "kind": "exclusion",
+      "weight": 0,
+      "active": true,
+      "context": []
+    }
+  ]
+}

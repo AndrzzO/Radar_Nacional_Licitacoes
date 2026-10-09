@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radar-nacional-licitacoes"
+version = "1.1.0"
+description = "Aplicativo desktop para coleta, monitoramento e exportação de licitações públicas brasileiras do PNCP."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "PySide6>=6.6.0",
+    "httpx>=0.27.0",
+    "openpyxl>=3.1.2",
+    "tzdata>=2024.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-mock>=3.12.0",
+    "pyinstaller>=6.5.0",
+]
+
+course = ["reportlab>=4.0", "pypdf>=5.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.setuptools.package-data]
+"src.classification" = ["default_catalog.json"]
+
+"src.learning" = ["course.json", "course.pdf", "course_pdf_manifest.json"]
