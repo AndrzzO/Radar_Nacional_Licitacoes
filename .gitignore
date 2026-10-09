@@ -56,6 +56,7 @@ Desktop.ini
 .temp/
 scratch/
 tmp/
+*.zip
 
 # Builds incrementais preservando o pacote anterior
 dist_v1_1/

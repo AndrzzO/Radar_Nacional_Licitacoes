@@ -1,0 +1,65 @@
+name: Build and Release Windows EXE
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Executar Testes Automatizados
+        run: |
+          pytest -v
+
+      - name: Compilar Executável Windows (PyInstaller)
+        run: |
+          pyinstaller --noconfirm --onedir --windowed --name "RadarNacionalLicitacoes" --clean main.py
+
+      - name: Compactar Distribuição Windows (.ZIP)
+        shell: pwsh
+        run: |
+          Compress-Archive -Path dist/RadarNacionalLicitacoes/* -DestinationPath RadarNacionalLicitacoes_Windows.zip -Force
+
+      - name: Criar GitHub Release e Anexar Arquivos
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            RadarNacionalLicitacoes_Windows.zip
+            output/pdf/Curso_Radar_Licitacoes.pdf
+          name: Release ${{ github.ref_name }}
+          body: |
+            ## 🛰️ Radar Nacional de Licitações - Versão ${{ github.ref_name }}
+            
+            ### 📥 Como Usar:
+            1. Baixe o arquivo **`RadarNacionalLicitacoes_Windows.zip`** abaixo.
+            2. Extraia o conteúdo do arquivo ZIP para uma pasta no seu computador.
+            3. Dê dois cliques em **`RadarNacionalLicitacoes.exe`** para iniciar o aplicativo.
+            
+            *Não requer instalação prévia de Python ou banco de dados.*
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
